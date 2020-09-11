@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es2019",
+    "module": "commonjs",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es2019"
+    ],
+    "baseUrl": ".",
+    "rootDir": "./",
+    "types": [
+      "node"
+    ]
+  }
+}

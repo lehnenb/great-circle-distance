@@ -1,0 +1,28 @@
+{
+  "name": "great_circle_distance_exercise",
+  "description": "Sample application",
+  "version": "yes",
+  "main": "dist/main.js",
+  "author": "Bruno Lehnen",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "build": "yarn run tsc --build tsconfig.json",
+    "cli": "node dist/main.js",
+    "lint": "yarn run eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.0",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.9.0"
+  },
+  "dependencies": {
+    "typescript": "^4.0.2",
+    "uuid": "^8.3.0"
+  }
+}
